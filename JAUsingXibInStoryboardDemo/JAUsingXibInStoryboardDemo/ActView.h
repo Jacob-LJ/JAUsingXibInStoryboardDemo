@@ -11,7 +11,5 @@
 
 @interface ActView : UIView
 
-@property (strong, nonatomic) IBInspectable IBOutlet UIView *contentView;
-
 
 @end

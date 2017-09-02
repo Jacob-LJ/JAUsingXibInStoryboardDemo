@@ -11,6 +11,7 @@
 IB_DESIGNABLE
 @interface ActView ()
 
+@property (strong, nonatomic) IBInspectable IBOutlet UIView *contentView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLB;
 
 #pragma mark - IBInspectable Property
