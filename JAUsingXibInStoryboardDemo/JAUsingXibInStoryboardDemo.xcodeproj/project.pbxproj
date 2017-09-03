@@ -13,8 +13,11 @@
 		1606A5961F5AC527005A34E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1606A5941F5AC527005A34E4 /* Main.storyboard */; };
 		1606A5981F5AC527005A34E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1606A5971F5AC527005A34E4 /* Assets.xcassets */; };
 		1606A59B1F5AC527005A34E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1606A5991F5AC527005A34E4 /* LaunchScreen.storyboard */; };
-		1606A5A31F5AC973005A34E4 /* ActView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1606A5A21F5AC973005A34E4 /* ActView.xib */; };
-		1606A5A61F5AC986005A34E4 /* ActView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1606A5A51F5AC986005A34E4 /* ActView.m */; };
+		16A0187F1F5B982300DAFD7C /* ActView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A0187D1F5B982300DAFD7C /* ActView.m */; };
+		16A018801F5B982300DAFD7C /* ActView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A0187E1F5B982300DAFD7C /* ActView.xib */; };
+		16A018841F5B98BB00DAFD7C /* UIView+Inspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A018831F5B98BB00DAFD7C /* UIView+Inspectable.m */; };
+		16A018881F5B994100DAFD7C /* ShowIntimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A018871F5B994100DAFD7C /* ShowIntimeView.m */; };
+		16A0188A1F5B994900DAFD7C /* ShowIntimeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A018891F5B994900DAFD7C /* ShowIntimeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +31,14 @@
 		1606A5971F5AC527005A34E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1606A59A1F5AC527005A34E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1606A59C1F5AC527005A34E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1606A5A21F5AC973005A34E4 /* ActView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActView.xib; sourceTree = "<group>"; };
-		1606A5A41F5AC986005A34E4 /* ActView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActView.h; sourceTree = "<group>"; };
-		1606A5A51F5AC986005A34E4 /* ActView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActView.m; sourceTree = "<group>"; };
+		16A0187C1F5B982300DAFD7C /* ActView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActView.h; sourceTree = "<group>"; };
+		16A0187D1F5B982300DAFD7C /* ActView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActView.m; sourceTree = "<group>"; };
+		16A0187E1F5B982300DAFD7C /* ActView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActView.xib; sourceTree = "<group>"; };
+		16A018821F5B98BB00DAFD7C /* UIView+Inspectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Inspectable.h"; sourceTree = "<group>"; };
+		16A018831F5B98BB00DAFD7C /* UIView+Inspectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Inspectable.m"; sourceTree = "<group>"; };
+		16A018861F5B994100DAFD7C /* ShowIntimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowIntimeView.h; sourceTree = "<group>"; };
+		16A018871F5B994100DAFD7C /* ShowIntimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowIntimeView.m; sourceTree = "<group>"; };
+		16A018891F5B994900DAFD7C /* ShowIntimeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowIntimeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +71,8 @@
 		1606A58A1F5AC527005A34E4 /* JAUsingXibInStoryboardDemo */ = {
 			isa = PBXGroup;
 			children = (
-				1606A5A41F5AC986005A34E4 /* ActView.h */,
-				1606A5A51F5AC986005A34E4 /* ActView.m */,
-				1606A5A21F5AC973005A34E4 /* ActView.xib */,
+				16A0187B1F5B982300DAFD7C /* ShowXibOnStoryboard */,
+				16A0187A1F5B981A00DAFD7C /* UsingCategoryMakeXibRenderInTime */,
 				1606A58E1F5AC527005A34E4 /* AppDelegate.h */,
 				1606A58F1F5AC527005A34E4 /* AppDelegate.m */,
 				1606A5911F5AC527005A34E4 /* ViewController.h */,
@@ -85,6 +92,44 @@
 				1606A58C1F5AC527005A34E4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16A0187A1F5B981A00DAFD7C /* UsingCategoryMakeXibRenderInTime */ = {
+			isa = PBXGroup;
+			children = (
+				16A018851F5B990C00DAFD7C /* View */,
+				16A018811F5B984400DAFD7C /* Category */,
+			);
+			path = UsingCategoryMakeXibRenderInTime;
+			sourceTree = "<group>";
+		};
+		16A0187B1F5B982300DAFD7C /* ShowXibOnStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				16A0187C1F5B982300DAFD7C /* ActView.h */,
+				16A0187D1F5B982300DAFD7C /* ActView.m */,
+				16A0187E1F5B982300DAFD7C /* ActView.xib */,
+			);
+			path = ShowXibOnStoryboard;
+			sourceTree = "<group>";
+		};
+		16A018811F5B984400DAFD7C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				16A018821F5B98BB00DAFD7C /* UIView+Inspectable.h */,
+				16A018831F5B98BB00DAFD7C /* UIView+Inspectable.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		16A018851F5B990C00DAFD7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16A018861F5B994100DAFD7C /* ShowIntimeView.h */,
+				16A018871F5B994100DAFD7C /* ShowIntimeView.m */,
+				16A018891F5B994900DAFD7C /* ShowIntimeView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,10 +190,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16A0188A1F5B994900DAFD7C /* ShowIntimeView.xib in Resources */,
 				1606A59B1F5AC527005A34E4 /* LaunchScreen.storyboard in Resources */,
 				1606A5981F5AC527005A34E4 /* Assets.xcassets in Resources */,
 				1606A5961F5AC527005A34E4 /* Main.storyboard in Resources */,
-				1606A5A31F5AC973005A34E4 /* ActView.xib in Resources */,
+				16A018801F5B982300DAFD7C /* ActView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +208,9 @@
 				1606A5931F5AC527005A34E4 /* ViewController.m in Sources */,
 				1606A5901F5AC527005A34E4 /* AppDelegate.m in Sources */,
 				1606A58D1F5AC527005A34E4 /* main.m in Sources */,
-				1606A5A61F5AC986005A34E4 /* ActView.m in Sources */,
+				16A018881F5B994100DAFD7C /* ShowIntimeView.m in Sources */,
+				16A018841F5B98BB00DAFD7C /* UIView+Inspectable.m in Sources */,
+				16A0187F1F5B982300DAFD7C /* ActView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +367,7 @@
 				1606A5A11F5AC527005A34E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
